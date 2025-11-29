@@ -1,0 +1,127 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.1">
+  <diagram name="Page-1" id="FK-46p8ofai4YAw7Dypo">
+    <mxGraphModel dx="1693" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-1" value=":Pinochle" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="150" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-2" value=":ConfigurableGameAI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="530" y="220" width="174" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-3" value=":DecisionTypeChain&#xa;(BID)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="750" y="220" width="226" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-4" value=":SmartBiddingStrategy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="220" width="185" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-5" value=":RandomFallbackStrategy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="220" width="173" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="EGnTolVsNIKBBSSkAXGy-5">
+          <mxGeometry x="80" y="410" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-7" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="410" width="530" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="612" y="404" width="10" height="376" as="geometry" />
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-9" value="makeDecision(BidRequest)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="EGnTolVsNIKBBSSkAXGy-11" target="EGnTolVsNIKBBSSkAXGy-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="542" y="368" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-10" value="return&amp;nbsp;&lt;span style=&quot;text-align: start; color: rgb(16, 18, 20);&quot;&gt;BidDecision&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="EGnTolVsNIKBBSSkAXGy-8" target="EGnTolVsNIKBBSSkAXGy-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="542" y="438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="390" y="290" width="10" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-12" value="&lt;span style=&quot;text-align: start; color: rgb(16, 18, 20);&quot;&gt;Bid(int)&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=none;startFill=0;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1" target="EGnTolVsNIKBBSSkAXGy-11">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="254" y="320" as="sourcePoint" />
+            <mxPoint x="394" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-13" value="&lt;span style=&quot;orphans: 2; text-align: start; text-indent: 0px; widows: 2; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important; color: rgb(16, 18, 20); background-color: rgb(255, 255, 255);&quot;&gt;human click bid&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="321.5" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="858" y="410" width="10" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-15" value="handleRequest(BidRequest)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="622" y="441.00000000000136" as="sourcePoint" />
+            <mxPoint x="858" y="441.00000000000136" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-16" value="return&amp;nbsp;&lt;span style=&quot;color: rgb(16, 18, 20); text-align: start;&quot;&gt;BidDecision&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="622" y="732.8799999999992" as="targetPoint" />
+            <mxPoint x="858" y="732.8799999999992" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1088" y="460" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-18" value="decide(BidRequest)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="EGnTolVsNIKBBSSkAXGy-14" target="EGnTolVsNIKBBSSkAXGy-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1018" y="455" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-19" value="return&amp;nbsp;&lt;span style=&quot;color: rgb(16, 18, 20); text-align: start;&quot;&gt;BidDecision (smart)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="EGnTolVsNIKBBSSkAXGy-17" target="EGnTolVsNIKBBSSkAXGy-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1018" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-20" value="&lt;span style=&quot;orphans: 2; text-align: start; text-indent: 0px; widows: 2; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; color: rgb(16, 18, 20); background-color: rgb(255, 255, 255); display: inline !important;&quot;&gt;[According to the configuration file, smartbids is enabled /smart has a high priority]&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="976" y="413" width="440" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1.002;entryY=0.452;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.002;exitY=0.456;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="EGnTolVsNIKBBSSkAXGy-7" target="EGnTolVsNIKBBSSkAXGy-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="580" as="sourcePoint" />
+            <mxPoint x="1437" y="579" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-22" value="&lt;span style=&quot;orphans: 2; text-align: start; text-indent: 0px; widows: 2; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; color: rgb(16, 18, 20); background-color: rgb(255, 255, 255); display: inline !important;&quot;&gt;[According to the configuration file, smartbids == False / random has a high priority]&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="943" y="565" width="467" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-23" value="decide(BidRequest)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" parent="1" source="EGnTolVsNIKBBSSkAXGy-14" target="EGnTolVsNIKBBSSkAXGy-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="635" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-24" value="return&amp;nbsp;&lt;span style=&quot;color: rgb(16, 18, 20); text-align: start;&quot;&gt;BidDecision random&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" parent="1" source="EGnTolVsNIKBBSSkAXGy-6" target="EGnTolVsNIKBBSSkAXGy-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="715" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-25" value="&lt;span style=&quot;text-align: start; color: rgb(16, 18, 20);&quot;&gt;Visual feedback&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=open;startFill=0;endArrow=none;startSize=8;curved=0;rounded=0;dashed=1;" edge="1" parent="1" target="EGnTolVsNIKBBSSkAXGy-11">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="250" y="810" as="sourcePoint" />
+            <mxPoint x="303" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-27" value="Note: as the code may have more details, only the simplified part of the sequence diagram is shown here to assist in understanding" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="483" y="840" width="760" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-28" value="&lt;p data-section=&quot;0&quot; class=&quot;tgt color_text_0 un-step-trans&quot; style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; line-height: 21px; display: block; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; color: rgb(16, 18, 20);&quot;&gt;&lt;span&gt;&lt;span class=&quot;tgt color_text_0&quot; data-section=&quot;0&quot; data-sentence=&quot;0&quot; data-group=&quot;0-0&quot; style=&quot;box-sizing: border-box; line-height: 21px; display: inline; color: rgb(16, 18, 20);&quot;&gt;To prevent too many elements, currently only the process of Bid is displayed,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(16, 18, 20), rgb(221, 222, 224));&quot;&gt;CARD_PLAY and CARD_DISCARD also follow the same logic&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="493" y="854" width="780" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-29" value="human player" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EGnTolVsNIKBBSSkAXGy-35" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="EGnTolVsNIKBBSSkAXGy-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="840" as="sourcePoint" />
+            <mxPoint x="250" y="393" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

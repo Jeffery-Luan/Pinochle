@@ -1,0 +1,79 @@
+{
+  "melds": [
+    {
+      "name": "Double Run",
+      "score": 1500,
+      "cards": "4:TRUMP:2,1:TRUMP:2,2:TRUMP:2,3:TRUMP:2,5:TRUMP:2"
+    },
+    {
+      "name": "Ace Run + Royal Marriage",
+      "score": 230,
+      "cards": "4:TRUMP:1,1:TRUMP:1,2:TRUMP:2,3:TRUMP:2,5:TRUMP:1"
+    },
+    {
+      "name": "Ace Run + Extra King",
+      "score": 190,
+      "cards": "4:TRUMP:1,1:TRUMP:1,2:TRUMP:1,3:TRUMP:2,5:TRUMP:1"
+    },
+    {
+      "name": "Ace Run + Extra Queen",
+      "score": 190,
+      "cards": "4:TRUMP:1,1:TRUMP:1,2:TRUMP:2,3:TRUMP:1,5:TRUMP:1"
+    },
+    {
+      "name": "Ten to Ace Run",
+      "score": 150,
+      "cards": "4:TRUMP:1,1:TRUMP:1,2:TRUMP:1,3:TRUMP:1,5:TRUMP:1"
+    },
+    {
+      "name": "Jacks Abound",
+      "score": 400,
+      "cards": "1:S:2,1:H:2,1:D:2,1:C:2"
+    },
+    {
+      "name": "Double Pinochle",
+      "score": 300,
+      "cards": "1:D:2,2:S:2"
+    },
+    {
+      "name": "Aces Around",
+      "score": 100,
+      "cards": "5:S:1,5:H:1,5:D:1,5:C:1"
+    },
+    {
+      "name": "Royal Marriage",
+      "score": 40,
+      "cards": "2:TRUMP:1,3:TRUMP:1"
+    },
+    {
+      "name": "Pinochle",
+      "score": 40,
+      "cards": "1:D:1,2:S:1"
+    },
+    {
+      "name": "Common Marriage Spades",
+      "score": 20,
+      "cards": "2:S:1,3:S:1"
+    },
+    {
+      "name": "Common Marriage Hearts",
+      "score": 20,
+      "cards": "2:H:1,3:H:1"
+    },
+    {
+      "name": "Common Marriage Diamonds",
+      "score": 20,
+      "cards": "2:D:1,3:D:1"
+    },
+    {
+      "name": "Common Marriage Clubs",
+      "score": 20,
+      "cards": "2:C:1,3:C:1"
+    },
+    {
+      "name": "Dix",
+      "score": 10,
+      "cards": "0:TRUMP:1"
+    }
+  ]
+}

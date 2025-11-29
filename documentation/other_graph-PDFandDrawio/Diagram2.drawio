@@ -1,0 +1,181 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.1">
+  <diagram name="Page-1" id="IDuD6Wx7XxMJ8XmQIH5e">
+    <mxGraphModel dx="1328" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-35" value=":GeneralMeldHandler&#xa;Store the [Double Run]Rule" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1444.9899999999998" y="210" width="174" height="583" as="geometry" />
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ufp4GdOI_UU31ktn-cLf-35">
+          <mxGeometry x="82" y="90" width="10" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-37" value=":MeldAnalyzer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1180.5" y="210" width="226" height="583" as="geometry" />
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-38" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ufp4GdOI_UU31ktn-cLf-37">
+          <mxGeometry x="108" y="80" width="10" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-39" value=":GeneralMeldHandler&#xa;Store the [Ace Run]Rule" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1643.5" y="210" width="174" height="583" as="geometry" />
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-40" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ufp4GdOI_UU31ktn-cLf-39">
+          <mxGeometry x="82" y="220" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-41" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ufp4GdOI_UU31ktn-cLf-39">
+          <mxGeometry x="81.5" y="507" width="10" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-42" value="OtherHandler..." style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="1846.5" y="210" width="174" height="583" as="geometry" />
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-43" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ufp4GdOI_UU31ktn-cLf-42">
+          <mxGeometry x="82" y="290" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-44" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="ufp4GdOI_UU31ktn-cLf-42">
+          <mxGeometry x="82" y="373" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-45" value="&lt;div style=&quot;text-align: start;&quot;&gt;handle(cards)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0029" relative="1" as="geometry">
+            <mxPoint x="1298.9099999999999" y="313" as="sourcePoint" />
+            <mxPoint x="1527.4000000000003" y="313" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-46" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="353" width="822.5" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-47" value="[if matches my rule]" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1542.5" y="353" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-48" value="alt:a" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="1462.5" y="443" width="524" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-49" value="[if matches my rule]" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1754.25" y="437" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-50" value="&lt;div style=&quot;text-align: start;&quot;&gt;handle(remainingCards)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0029" relative="1" as="geometry">
+            <mxPoint x="1537.9900000000002" y="437" as="sourcePoint" />
+            <mxPoint x="1726.5" y="437" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-51" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;removeUsedCards&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;(cards)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;align=center;" edge="1" parent="1">
+          <mxGeometry x="0.3885" y="51" relative="1" as="geometry">
+            <mxPoint x="1536.5099999999998" y="379.96999999999935" as="sourcePoint" />
+            <mxPoint x="51" y="-51" as="offset" />
+            <mxPoint x="1536.02" y="412.96999999999935" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1561.5099999999998" y="379.96999999999935" />
+              <mxPoint x="1561.5099999999998" y="412.96999999999935" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-52" value="&lt;span style=&quot;orphans: 2; text-align: start; text-indent: 0px; widows: 2; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; color: rgb(16, 18, 20); display: inline !important;&quot;&gt;The chains have been&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;orphans: 2; text-align: start; text-indent: 0px; widows: 2; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; color: rgb(16, 18, 20); display: inline !important;&quot;&gt;&amp;nbsp;sorted by score&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1300.5" y="313" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-53" value="&lt;div style=&quot;&quot;&gt;&lt;font&gt;removeUsedCards&lt;/font&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(cards)&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;align=center;" edge="1" parent="1">
+          <mxGeometry x="0.078" y="72" relative="1" as="geometry">
+            <mxPoint x="1735.4899999999998" y="465" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <mxPoint x="1735" y="498" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1760.4899999999998" y="465" />
+              <mxPoint x="1760.4899999999998" y="498" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-54" value="&lt;div style=&quot;text-align: start;&quot;&gt;handle(remainingCards)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0029" relative="1" as="geometry">
+            <mxPoint x="1735" y="507.6800000000003" as="sourcePoint" />
+            <mxPoint x="1928.5" y="507.6800000000003" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-55" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.002;exitY=0.627;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.996;entryY=0.626;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1463.5480000000002" y="556.3999999999996" as="sourcePoint" />
+            <mxPoint x="1984.404" y="556.1999999999989" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-56" value="return score" style="verticalAlign=bottom;elbow=vertical;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=none;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1" source="ufp4GdOI_UU31ktn-cLf-43" target="ufp4GdOI_UU31ktn-cLf-40">
+          <mxGeometry x="-0.0052" relative="1" as="geometry">
+            <mxPoint x="2256.5" y="163" as="sourcePoint" />
+            <mxPoint x="1702.5" y="163" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-57" value="return myscore + score" style="verticalAlign=bottom;elbow=vertical;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry x="-0.0052" relative="1" as="geometry">
+            <mxPoint x="1726.01" y="533" as="sourcePoint" />
+            <mxPoint x="1537.5000000000002" y="533" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-58" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;[if not matches my rule]&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1738" y="553" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-59" value="&lt;div style=&quot;text-align: start;&quot;&gt;handle(Cards)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0029" relative="1" as="geometry">
+            <mxPoint x="1734" y="589" as="sourcePoint" />
+            <mxPoint x="1928.5" y="589" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-60" value="return score" style="verticalAlign=bottom;elbow=vertical;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=none;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="1" source="ufp4GdOI_UU31ktn-cLf-44">
+          <mxGeometry x="-0.0052" relative="1" as="geometry">
+            <mxPoint x="2015.5" y="593" as="sourcePoint" />
+            <mxPoint x="1734" y="608.0000000000018" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-61" value="return 0 + score" style="verticalAlign=bottom;elbow=vertical;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry x="-0.0052" relative="1" as="geometry">
+            <mxPoint x="1724" y="623.0000000000018" as="sourcePoint" />
+            <mxPoint x="1537.5" y="623" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-62" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.001;exitY=0.723;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.999;entryY=0.724;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ufp4GdOI_UU31ktn-cLf-46" target="ufp4GdOI_UU31ktn-cLf-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1532.5" y="653" as="sourcePoint" />
+            <mxPoint x="2053.5" y="653" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-63" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;[if not matches my rule]&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1542.5" y="673" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-64" value="&lt;span style=&quot;text-align: start;&quot;&gt;ref.&amp;nbsp;&lt;/span&gt;alt:a" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=60;height=30;gradientColor=#E6E6E6;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;" vertex="1" parent="1">
+          <mxGeometry x="1462.5" y="733" width="530" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-65" value="return myscore + score" style="verticalAlign=bottom;elbow=vertical;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry x="-0.0052" relative="1" as="geometry">
+            <mxPoint x="1527.3999999999999" y="663" as="sourcePoint" />
+            <mxPoint x="1298.9099999999999" y="663" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-66" value="return 0 + score" style="verticalAlign=bottom;elbow=vertical;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=default;" edge="1" parent="1">
+          <mxGeometry x="-0.0052" relative="1" as="geometry">
+            <mxPoint x="1526.9899999999998" y="784" as="sourcePoint" />
+            <mxPoint x="1300.5" y="784" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-67" value="&lt;div style=&quot;text-align: start;&quot;&gt;handle(Cards)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0029" relative="1" as="geometry">
+            <mxPoint x="1536.99" y="719" as="sourcePoint" />
+            <mxPoint x="1725.4999999999998" y="719" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-68" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1928.5" y="753" width="10" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="ufp4GdOI_UU31ktn-cLf-69" value="&lt;span style=&quot;color: rgb(16, 18, 20); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Arial, &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, 宋体, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: none; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Note: In order to simplify and convey the design concept, I only presented the situations of two decks&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1294.5" y="791" width="660" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

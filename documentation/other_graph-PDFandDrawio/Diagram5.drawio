@@ -1,0 +1,136 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.1">
+  <diagram name="Page-1" id="_NzwxzoEhunenT_OAyaI">
+    <mxGraphModel dx="1113" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-24" value=":CutThroatStrategy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="457.94000000000005" y="40" width="150" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-25" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="NxO0J3F8wD9hnQMPHpmQ-24">
+          <mxGeometry x="70" y="370" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-26" value=":PostBiddingStrategy" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="276" y="40" width="150" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-27" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="NxO0J3F8wD9hnQMPHpmQ-26">
+          <mxGeometry x="70" y="340" width="10" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-28" value=":Pinochle" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="150" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-29" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="NxO0J3F8wD9hnQMPHpmQ-28">
+          <mxGeometry x="70" y="70" width="10" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-30" value="&lt;span style=&quot;text-align: start; color: rgb(16, 18, 20);&quot;&gt;playGame()&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry x="0.0775" y="34" relative="1" as="geometry">
+            <mxPoint x="161.01999999999998" y="130" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <mxPoint x="160.5300000000002" y="163" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="186.01999999999998" y="130" />
+              <mxPoint x="186.01999999999998" y="163" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-31" value="&lt;span style=&quot;text-align: start; color: rgb(16, 18, 20);&quot;&gt;askForBid()&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry x="0.0775" y="34" relative="1" as="geometry">
+            <mxPoint x="161.01999999999998" y="171" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <mxPoint x="160.5300000000002" y="204" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="186.01999999999998" y="171" />
+              <mxPoint x="186.01999999999998" y="204" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-32" value="&lt;span style=&quot;text-align: start; color: rgb(16, 18, 20);&quot;&gt;askForTrumpSuit&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry x="0.0775" y="44" relative="1" as="geometry">
+            <mxPoint x="161.01999999999998" y="212" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <mxPoint x="160.5300000000002" y="245" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="186.01999999999998" y="212" />
+              <mxPoint x="186.01999999999998" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-33" value="&lt;span&gt;&lt;span style=&quot;text-align: start; color: rgb(16, 18, 20);&quot;&gt;execute&lt;/span&gt;PostBiddingPhase&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry x="0.2336" y="74" relative="1" as="geometry">
+            <mxPoint x="161.01000000000022" y="282.5" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <mxPoint x="160.52000000000044" y="315.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="186.01000000000022" y="282.5" />
+              <mxPoint x="186.01000000000022" y="315.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-34" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="342" width="480" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-35" value="&lt;span style=&quot;orphans: 2; text-align: start; text-indent: 0px; widows: 2; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important; color: rgb(16, 18, 20);&quot;&gt;[&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;cutthroat == Ture&lt;/span&gt;]&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="169" y="338" width="183" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-36" value="&lt;span style=&quot;text-align: start; color: rgb(16, 18, 20);&quot;&gt;execute&lt;/span&gt;PostBidding(gameState)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0002" relative="1" as="geometry">
+            <mxPoint x="161" y="384" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <mxPoint x="346" y="384" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-37" value="FeedBack x" style="verticalAlign=bottom;elbow=vertical;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=default;fontStyle=0" edge="1" parent="1">
+          <mxGeometry x="0.015" relative="1" as="geometry">
+            <mxPoint x="160" y="520" as="sourcePoint" />
+            <mxPoint x="527.94" y="520" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-38" value="&lt;span style=&quot;text-align: start; color: rgb(16, 18, 20); background-color: rgb(255, 255, 255);&quot;&gt;This is the extension point&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="151" y="260" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-39" value="&lt;span style=&quot;text-align: start; color: rgb(16, 18, 20);&quot;&gt;execute&lt;/span&gt;PostBidding(gameState)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0002" relative="1" as="geometry">
+            <mxPoint x="357.03" y="410" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <mxPoint x="528.97" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-40" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;&lt;font color=&quot;#101214&quot;&gt;drawNewGUI&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;()&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0002" relative="1" as="geometry">
+            <mxPoint x="526.94" y="440" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <mxPoint x="159" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-41" value="&lt;div style=&quot;&quot;&gt;&lt;span&gt;&lt;span style=&quot;color: rgb(16, 18, 20);&quot;&gt;Other Business Logics x&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0002" relative="1" as="geometry">
+            <mxPoint x="526.94" y="490" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <mxPoint x="159" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-42" value="&lt;span style=&quot;text-align: start; color: rgb(16, 18, 20);&quot;&gt;repeat&lt;/span&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=50;height=30;gradientColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="101" y="450" width="449" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-43" value="&lt;span style=&quot;orphans: 2; text-align: start; text-indent: 0px; widows: 2; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; color: rgb(16, 18, 20); display: inline !important;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;[Until the business is completed]&lt;/span&gt;&lt;font color=&quot;rgba(0, 0, 0, 0)&quot;&gt;]&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="445" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-44" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;text-align: start;&quot;&gt;Subsequent Template&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;text-align: start;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;text-align: start;&quot;&gt;Until Game End&lt;/span&gt;&lt;span style=&quot;text-align: start;&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry x="0.3174" y="55" relative="1" as="geometry">
+            <mxPoint x="160.48999999999978" y="570" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <mxPoint x="160" y="603" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="185.48999999999978" y="570" />
+              <mxPoint x="185.48999999999978" y="603" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NxO0J3F8wD9hnQMPHpmQ-45" value="&lt;span style=&quot;orphans: 2; text-align: start; text-indent: 0px; widows: 2; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; color: rgb(16, 18, 20); display: inline !important;&quot;&gt;Due to the extremely complex business logic of Requirement 3,&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;orphans: 2; text-align: start; text-indent: 0px; widows: 2; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; color: rgb(16, 18, 20); display: inline !important;&quot;&gt;only the high-level concepts are presented here&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150.5" y="630" width="350" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
